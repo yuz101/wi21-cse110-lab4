@@ -11,6 +11,7 @@
 11. Line 13 will print cause error since finalPrice is declared with const and we can't reassign const variables. 
 12. The function will return [50,100,150]. For each iteration of the for loop, the price at index i will multiply with (1 - 0.5) = 0.5. Then it will multiply with 100 and divide by 100, which the value will remain the same. Finally, it will be appended to the discounted array.
 13. 
+
 a.student.name
 b.student["Grad Year"]
 c.student.greeting
@@ -37,8 +38,4 @@ f. true, the strict equality operator check the equality without type conversion
 18. see part1-question18.js
 19. [6, 8, 10]. When the function modifyArray is called, [1,2,3] is passed in as array and doSomething is passed in as callback function. In the first iteration of the for loop, array[0] = 1 was passed in to doSomething as num and a newly defined function is passed in to doSomething as callback function. Then 1 +2 = 3 was passed in as x to the function and return back 3 * 2 = 6. The rest of the array repeat the above steps and we get [6, 8, 10] at the end.
 20. see part1-question20.js
-<<<<<<< HEAD
 21. 1 4 3 2
-=======
-21. 1 4 3 2
->>>>>>> dd8472b86076ef7aff68a64deb21734bf50d14eb
