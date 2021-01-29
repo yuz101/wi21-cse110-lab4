@@ -17,6 +17,7 @@ b.student["Grad Year"]
 c.student.greeting
 d.student["Favorite Teacher"].name
 e.student.courseLoad[0]
+
 14. 
 
 a. '32', when binary + is applied to strings, it merges them
@@ -27,6 +28,7 @@ e. 4, true is treated as 1 here, therefore 3 + 1 = 4
 f. 0, false is treated as 0 here and null is treated as 0 as well. Therefore, 0 + 0 = 0
 g. '3undefined', when binary + is applied to strings, it merges them
 h. NaN, "3" is converted to 3 and undefined becomes NaN after the numeric conversion. Thus, 3 - NaN = NaN.
+
 15. 
 
 a. true, when comparing values of different types, it converts the values to numbers. Thus 2 > 1, which is true.
