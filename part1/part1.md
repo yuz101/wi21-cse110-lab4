@@ -13,9 +13,13 @@
 13. 
 
 a.student.name
+
 b.student["Grad Year"]
+
 c.student.greeting
+
 d.student["Favorite Teacher"].name
+
 e.student.courseLoad[0]
 
 14. 
@@ -39,10 +43,15 @@ h. NaN, "3" is converted to 3 and undefined becomes NaN after the numeric conver
 15. 
 
 a. true, when comparing values of different types, it converts the values to numbers. Thus 2 > 1, which is true.
+
 b. false, since string are compared letter-by-letter. The first letter 2 is not smaller than 1.
-c. true,  when comparing values of different types, it converts the values to numbers. Thus 2 == 2, which is true;
-d. false, the strict equality operator check the equality without type conversion. Since 2 is numeric and '2' is string, thus return false
-e. false, true is treated as 1 here, therefore 1 == 2 is false
+
+c. true,  when comparing values of different types, it converts the values to numbers. Thus 2 == 2, which is true.
+
+d. false, the strict equality operator check the equality without type conversion. Since 2 is numeric and '2' is string, thus return false.
+
+e. false, true is treated as 1 here, therefore 1 == 2 is false.
+
 f. true, the strict equality operator check the equality without type conversion. Boolean(2) is boolean type and true is boolean type.
 
 16. The equal sign == can be used to compare different types and the strict equality operator === check the equality without type conversion
