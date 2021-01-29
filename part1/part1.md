@@ -21,12 +21,19 @@ e.student.courseLoad[0]
 14. 
 
 a. '32', when binary + is applied to strings, it merges them
+
 b. 1, other than binary +, the rest of the arithmetic operators work only with numbers and here it convert '3' to number 3
+
 c. 3, null is treated as 0 here, therefore 3 + 0 = 3
+
 d. '3null', when binary + is applied to strings, it merges them
+
 e. 4, true is treated as 1 here, therefore 3 + 1 = 4
+
 f. 0, false is treated as 0 here and null is treated as 0 as well. Therefore, 0 + 0 = 0
+
 g. '3undefined', when binary + is applied to strings, it merges them
+
 h. NaN, "3" is converted to 3 and undefined becomes NaN after the numeric conversion. Thus, 3 - NaN = NaN.
 
 15. 
