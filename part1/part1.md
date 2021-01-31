@@ -16,7 +16,7 @@ a.student.name
 
 b.student["Grad Year"]
 
-c.student.greeting
+c.student.greeting()
 
 d.student["Favorite Teacher"].name
 

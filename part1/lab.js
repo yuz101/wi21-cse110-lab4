@@ -17,19 +17,6 @@ const { func } = require("prop-types");
 // }
 // console.log(discountPrices([100,200,300],0.5));
 
-// let student = {
-//     name: 'Sarah',
-//     major: 'Computer Science',
-//     'Grad Year' : '2022',
-//     greeting: function(){console.log('Hello!'); },
-//     'Favorite Teacher' :{
-//         name : "Thomas",
-//         course : 'CSE 110'
-//     },
-//     courseLoad : ['CSE110', 'CSE134', 'VIS 41']
-// }
-// console.log(student.greeting)
-
 // if(2 == true){
 //     console.log('Hello!');
 // }else if(2){
@@ -52,10 +39,10 @@ const { func } = require("prop-types");
 // }
 // console.log(modifyArray([1,2,3], doSomething))
 
-function printNums() {
-    console.log(1);
-    setTimeout(function() { console.log(2); }, 1000);
-    setTimeout(function() { console.log(3); }, 0);
-    console.log(4);
-}
-printNums();
+// function printNums() {
+//     console.log(1);
+//     setTimeout(function() { console.log(2); }, 1000);
+//     setTimeout(function() { console.log(3); }, 0);
+//     console.log(4);
+// }
+// printNums();
